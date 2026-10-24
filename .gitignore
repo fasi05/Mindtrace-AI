@@ -1,0 +1,21 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+*.pem
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Local databases (may contain learner data)
+data/*.db
+data/*.sqlite
+*.db
+*.sqlite3
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*.log
